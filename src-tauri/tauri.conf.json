@@ -1,0 +1,37 @@
+{
+  "productName": "AI Nexus Development",
+  "version": "0.1.0",
+  "identifier": "com.iamboosted.ai-nexus-development",
+  "build": {
+    "beforeDevCommand": "npm run build:frontend",
+    "beforeBuildCommand": "npm run build:frontend",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "label": "main",
+        "title": "AI Nexus Development",
+        "width": 1180,
+        "height": 760,
+        "minWidth": 980,
+        "minHeight": 640,
+        "resizable": true,
+        "decorations": false,
+        "center": true,
+        "transparent": false,
+        "dragDropEnabled": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self' ipc: http://ipc.localhost; script-src 'self'"
+    }
+  },
+  "bundle": {
+    "active": false,
+    "icon": [
+      "../.build/generated-icons/icon.ico"
+    ]
+  }
+}

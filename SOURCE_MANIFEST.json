@@ -1,0 +1,226 @@
+{
+  "format_version": 1,
+  "project": "AI Nexus",
+  "stage": "source-only Windows developer preview",
+  "project_license": "MIT",
+  "copyright": "Copyright © 2026 iAmBoosted",
+  "purpose": "Source snapshot for integrity review. Update hashes after content changes. This manifest does not clear third-party binary redistribution.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "765431c5b5f1e4b6318ee79aa4409e2c8b31ec1588f86246a73baa6ce83a380e"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "954ef8850ce14a8c2993c5ea05b78f75d19ae6233166e7a2239279179d8c7725"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "cba1ad56e17f3c2357b8f9acdf134f87765aa4bb1664a13d1c14778f0bead7b2"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "9118ebf4abd8fbf4f1415123ad8026fac1a9b30bdb89a5fd565bb6c8d527228e"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "210b3deea73c237bbc78e49d7a4708b2739d6070b044c116ed422036fd3e44b4"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9312df7c1666b1baacb98012066f383d315174c9b9c60c708f7d853a63133b32"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "65eed5f7b960c11536e5dd76a380b1b54366994adc8b4855189cfb4798e03f14"
+    },
+    {
+      "path": "config/launcher.config.example.json",
+      "sha256": "4744f4890e949a1676676287f37b0964cd2b19589ea5c031849fe6f675ce05cf"
+    },
+    {
+      "path": "docs/GPU_MONITORING.md",
+      "sha256": "cb3db1bac3ff0fb3ef0420c81e46ff7a30c1b58be99c393ccc305f311713c3ac"
+    },
+    {
+      "path": "docs/MONITOR_PROTOCOL.md",
+      "sha256": "a7eeed1115e391eb54e8fed168d9cc572f22c21ecc169fea4a26396b6ba4d86e"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "e136d5b1602c221b468104a09551b93e0591ac7e4272278c676d3647d268824c"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "83bf7faaac8537c46a3d4421b0eb4ed9672f40e528b094a62297cd28e7df0c6e"
+    },
+    {
+      "path": "package.json",
+      "sha256": "c79045415d0af4aa9932d5e30070a79af920f7992d912d9cfb29b4871fbc5bb3"
+    },
+    {
+      "path": "scripts/build-frontend.mjs",
+      "sha256": "cb88c0460b655c1e6d3c7abe31a1020ec2d0d35753cf1d7a248bbe8a0f136379"
+    },
+    {
+      "path": "scripts/run-tauri.mjs",
+      "sha256": "f1a85bc158071103b9e00ebe75a482b741314cf84887b26f26786d4a6839d688"
+    },
+    {
+      "path": "scripts/serve-preview.mjs",
+      "sha256": "1dc4bead81579ad7873aef31b06dc4e615cc55589367b2f602d77d10631a3eb2"
+    },
+    {
+      "path": "src-tauri/Cargo.lock",
+      "sha256": "f9893edfdbd0b5580313b25616bdc4217dff7a32e9732087e0699bf5c98126fe"
+    },
+    {
+      "path": "src-tauri/Cargo.toml",
+      "sha256": "fb0ef4116b40428b4af348a87f609342aacc4c4a61a813d4734f3c13b332e5f4"
+    },
+    {
+      "path": "src-tauri/build.rs",
+      "sha256": "d2e276848c4094e39f7773081ac044751378eb0d1e0290ca1b64dde372588144"
+    },
+    {
+      "path": "src-tauri/capabilities/default.json",
+      "sha256": "2d9c846173809d5ec65ce56bb163ecb7b1c3e7dc29764d3570b7f8c6bf4c8df6"
+    },
+    {
+      "path": "src-tauri/src/config.rs",
+      "sha256": "e06fa48baf6ea8f0d8dfa5a33605ca87e57612ae93bbc38c466127c0a6d1b8ec"
+    },
+    {
+      "path": "src-tauri/src/file_picker.rs",
+      "sha256": "ad02fc3eadf06311eb756e057ffdf8f8baa39e21fcad023fd282b821dcf3d347"
+    },
+    {
+      "path": "src-tauri/src/gpu.rs",
+      "sha256": "22ba9c962cea1061db756463732df0b7fdb2d3347bf8c021db7a0a91304f6c4e"
+    },
+    {
+      "path": "src-tauri/src/launch.rs",
+      "sha256": "11e9cbde12e863e8bca729b0c4a6554631a396e3a351d0e30e38ed31d2a05fd0"
+    },
+    {
+      "path": "src-tauri/src/lib.rs",
+      "sha256": "ec5f872ce753e6476b5d5377557ffdf32d6e5ba205781ca669754a913e6e49c2"
+    },
+    {
+      "path": "src-tauri/src/lifecycle.rs",
+      "sha256": "fa91bb4b3cbcdf96b2e23876bb639030539a0bf956b3f949ff5fec9cf6a23633"
+    },
+    {
+      "path": "src-tauri/src/main.rs",
+      "sha256": "6fc7b3b66acf641881dcfe42c4420d9104d5f12b3b659300691def5c1a03847a"
+    },
+    {
+      "path": "src-tauri/src/proc.rs",
+      "sha256": "0ee219ab377d6ca1fa75a6bab8351f07dc582018a440bc150a705e10c2b9ca22"
+    },
+    {
+      "path": "src-tauri/tauri.conf.json",
+      "sha256": "bd8366520d4fe9b63322345c4815ec534fa3b522bab7570c83ae68e7cdcc7957"
+    },
+    {
+      "path": "src/launcher/app.jsx",
+      "sha256": "ec4f18959f2ae45293033e1a5317073bf116810eaba269aeeef75161aeffe011"
+    },
+    {
+      "path": "src/launcher/bridge.jsx",
+      "sha256": "377a5d0be1ab6a78e87effa370666b59f6864837e1ed52ea89be0b1f6851656d"
+    },
+    {
+      "path": "src/launcher/config-ui.js",
+      "sha256": "38db9459d7d1ae1b22338e443e07c3882d05181752a37f183e6eb61399010960"
+    },
+    {
+      "path": "src/launcher/data.jsx",
+      "sha256": "68e03867f400157f4c934bea7fcf455386d6b3785680489c12335e27a38d4312"
+    },
+    {
+      "path": "src/launcher/fx.jsx",
+      "sha256": "84030cbaedff70288ec339fe0e5d43019991fe43f3a94d67195a5d0facedd9ed"
+    },
+    {
+      "path": "src/launcher/gpu.jsx",
+      "sha256": "7bef36c9832a0ab4bbcbe97c275b61a2f2d09585da94f38b14aa26f232f7cba8"
+    },
+    {
+      "path": "src/launcher/launcher.css",
+      "sha256": "513bf31254fd4284a4e881f1973c6b432ca5c13e06f7614964c672eb8c053018"
+    },
+    {
+      "path": "src/launcher/models.jsx",
+      "sha256": "1c5e7b285956da27e8fb79e63e1c7e4e0e9bc189374c631e57e50ac3fcb0dd91"
+    },
+    {
+      "path": "src/launcher/services.jsx",
+      "sha256": "67a67aa7e7c7ee4c6a0e9ab1ab001f762df0e5cc30a7721df2b41d74497425be"
+    },
+    {
+      "path": "src/launcher/settings.jsx",
+      "sha256": "f1d4e800ba39423409ce9b77ca71434f3980fbc6bd0410a1d194259a5036d9cd"
+    },
+    {
+      "path": "src/vendor/react-dom.production.min.js",
+      "sha256": "35f4f974f4b2bcd44da73963347f8952e341f83909e4498227d4e26b98f66f0d"
+    },
+    {
+      "path": "src/vendor/react.production.min.js",
+      "sha256": "d949f1c3687aedadcedac85261865f29b17cd273997e7f6b2bfc53b2f9d4c4dd"
+    },
+    {
+      "path": "tests/config-ui.test.cjs",
+      "sha256": "f54c97c3fd754446fb3d8224e489ee821d8750137ef393f9f84e308cd0f47971"
+    },
+    {
+      "path": "tests/lifecycle/README.md",
+      "sha256": "754674ce5abb7c9d7745bf9b687bda0386d4edd61e10c86fb308d4fe2ef1717c"
+    },
+    {
+      "path": "tests/lifecycle/dummy-server.rs",
+      "sha256": "f68ddcefb154eb196d9871f1e1ab5d166e944cf181a6549bc16a47ee2d382836"
+    },
+    {
+      "path": "tests/lifecycle/run.cjs",
+      "sha256": "dfd539de2cccadd2c7b942335ebd3b1838d62c03c6d1f4ece37c32d91e78290d"
+    },
+    {
+      "path": "tests/lifecycle/stop-owned-fixture.ps1",
+      "sha256": "1a29484610d63271efeb6cd2a06b8076cf6fdf59412b23b1592b79950b27f42d"
+    },
+    {
+      "path": "tests/lifecycle/tool-requirements.json",
+      "sha256": "3ef4d1da9c8aa38d917814d47f6967bc7a4e03f7056331bcf27c95288227dec0"
+    },
+    {
+      "path": "tests/native-core/Cargo.lock",
+      "sha256": "9931327937cf7d6e69ffb3a4ab695cb4b8c3af0500f5df6cc2c3d3ac7dd4412f"
+    },
+    {
+      "path": "tests/native-core/Cargo.toml",
+      "sha256": "6c90b019efb025914a0ffc422dda646d7f38f87f3e86d13720ec649733f3491e"
+    },
+    {
+      "path": "tests/native-core/lib.rs",
+      "sha256": "17e8d096555b3bf9b2470ed5f04ffdfcc9e5bd3b41044a707b7a0de546978f16"
+    },
+    {
+      "path": "third-party/dependency-inventory.json",
+      "sha256": "c87be2275f24ae390ada9284d9f66d1f294b8e6cc530dbd874600cc4c43dad42"
+    },
+    {
+      "path": "third-party/react/LICENSE.txt",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    }
+  ],
+  "hash_algorithm": "SHA-256",
+  "hash_scope": "Ordinary file contents only. NTFS alternate streams are checked separately and are absent from this snapshot.",
+  "self_exclusion": {
+    "path": "SOURCE_MANIFEST.json",
+    "reason": "The manifest is excluded from its own file hashes because embedding its hash would change the content being hashed."
+  },
+  "total_file_count": 53,
+  "hashed_file_count": 52
+}

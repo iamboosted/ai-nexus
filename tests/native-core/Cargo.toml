@@ -1,0 +1,20 @@
+[package]
+license = "MIT"
+name = "ai-nexus-core-tests"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.88"
+publish = false
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+serde = { version = "=1.0.228", features = ["derive"] }
+serde_json = "=1.0.150"
+
+[target.'cfg(windows)'.dependencies]
+# Same version already pinned/cached by the app, for its production process module.
+windows = { version = "=0.61.3", features = ["Win32_Foundation", "Win32_Security", "Win32_System_JobObjects", "Win32_System_Threading", "Win32_System_Diagnostics_ToolHelp"] }
+
+

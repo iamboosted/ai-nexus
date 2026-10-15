@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "runtime": {
+    "binary": "",
+    "backend": null,
+    "host": "127.0.0.1",
+    "port": 8080,
+    "devices": [],
+    "main_gpu": null,
+    "extra_args": []
+  },
+  "models": [],
+  "monitoring": {
+    "backend": "unavailable",
+    "helper": "",
+    "nvidia_smi": "",
+    "poll_interval_ms": 2000
+  },
+  "appearance": {
+    "accent_color": "#E87D2F",
+    "ink": "black",
+    "motion": "live",
+    "backdrop": "ember",
+    "density": "comfortable",
+    "font": "grotesk",
+    "card_style": "glow",
+    "form": "standard"
+  },
+  "services": {
+    "open_web_ui": {
+      "enabled": false,
+      "port": 8008,
+      "health_url": "http://127.0.0.1:8008/health",
+      "start_command": null
+    },
+    "tts": {
+      "enabled": false,
+      "port": 8880,
+      "health_url": "http://127.0.0.1:8880/health",
+      "start_command": null
+    },
+    "stt": {
+      "enabled": false,
+      "port": 8890,
+      "health_url": "http://127.0.0.1:8890/health",
+      "start_command": null
+    }
+  },
+  "opencode": {
+    "enabled": false,
+    "config_path": "",
+    "provider_id": "local",
+    "model_ids": {}
+  }
+}

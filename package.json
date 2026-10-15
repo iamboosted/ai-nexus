@@ -1,0 +1,28 @@
+{
+  "name": "ai-nexus-dev",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Windows desktop dashboard for user-supplied llama.cpp servers; source developer preview.",
+  "scripts": {
+    "build:frontend": "node scripts/build-frontend.mjs",
+    "preview": "node scripts/build-frontend.mjs && node scripts/serve-preview.mjs",
+    "tauri": "node scripts/run-tauri.mjs",
+    "dev": "node scripts/run-tauri.mjs dev",
+    "build": "node scripts/run-tauri.mjs build --no-bundle",
+    "test": "node --test tests/*.test.cjs",
+    "test:native": "cargo test --offline --locked --manifest-path tests/native-core/Cargo.toml --target-dir .build/native-core",
+    "test:lifecycle": "node tests/lifecycle/run.cjs"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.0",
+    "@babel/core": "^7.25.0",
+    "@babel/preset-react": "^7.24.0",
+    "@tauri-apps/cli": "^2.1.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "license": "MIT",
+  "author": "iAmBoosted"
+}

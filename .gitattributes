@@ -1,0 +1,3 @@
+# Preserve exact file bytes for the source manifest and vendored material.
+# Disable automatic line-ending conversion on check-in and checkout.
+* -text

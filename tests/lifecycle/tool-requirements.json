@@ -1,0 +1,26 @@
+{
+  "platform": "Windows x64",
+  "playwright": "1.62.1",
+  "browser": "installed WebView2 via CDP",
+  "automatic_installation": false,
+  "tools": [
+    {
+      "name": "playwright",
+      "version": "1.62.1",
+      "license_expression": "Apache-2.0",
+      "source": "https://www.npmjs.com/package/playwright/v/1.62.1",
+      "license_evidence": "matching installed package manifest and LICENSE",
+      "license_file_sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "distribution": "optional test-only tool, user supplied, not vendored or in the root npm lockfile"
+    },
+    {
+      "name": "playwright-core",
+      "version": "1.62.1",
+      "license_expression": "Apache-2.0",
+      "source": "https://www.npmjs.com/package/playwright-core/v/1.62.1",
+      "license_evidence": "matching installed package manifest and LICENSE",
+      "license_file_sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "distribution": "optional test-only tool, user supplied, not vendored or in the root npm lockfile"
+    }
+  ]
+}
