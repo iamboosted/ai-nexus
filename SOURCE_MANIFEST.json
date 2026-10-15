@@ -28,7 +28,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "9312df7c1666b1baacb98012066f383d315174c9b9c60c708f7d853a63133b32"
+      "sha256": "0df14afe890c0a0283a0d83c87db6192989b6b626eb45cc6f9584c603e51e71f"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -48,7 +48,35 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "sha256": "e136d5b1602c221b468104a09551b93e0591ac7e4272278c676d3647d268824c"
+      "sha256": "82d2b1f41809134163cd9c1549f8fd4ee114cb39bf3639c133fcb1e0ca319931"
+    },
+    {
+      "path": "docs/media/README.md",
+      "sha256": "d022b9e90e1dadf0d895445526d543b5e95b18dc01c1173a1aa3753182a30e33"
+    },
+    {
+      "path": "docs/media/ai-nexus-banner.svg",
+      "sha256": "41b6950c8cabb3621976323629f4edff84b09cd9a7554c36b9becbdb8af407ac"
+    },
+    {
+      "path": "docs/media/appearance-motion.gif",
+      "sha256": "2438d98325d0f4f661fbec39d83eff66fd959d9170fa77005fbb475087f67fec"
+    },
+    {
+      "path": "docs/media/compact-hud.png",
+      "sha256": "4bcad9438419ecfd0f8d550100934161e404dd17ffa4dc708333b447db4f9ed8"
+    },
+    {
+      "path": "docs/media/dashboard.png",
+      "sha256": "aa97962c26fc29594d81eb7e9a451640ce3b40c5c432791e47f1d07ea1739644"
+    },
+    {
+      "path": "docs/media/settings-appearance.png",
+      "sha256": "3e90e7d7f75fc197fbc3c4f03f5b27d5b776b14d660df9b7e31f78b3863e6c84"
+    },
+    {
+      "path": "docs/media/settings-models.png",
+      "sha256": "c8c6d1d1d75bbdc2052618ad4dc727b7da9138c214d99198d9e5e1a95a7051e1"
     },
     {
       "path": "package-lock.json",
@@ -221,6 +249,6 @@
     "path": "SOURCE_MANIFEST.json",
     "reason": "The manifest is excluded from its own file hashes because embedding its hash would change the content being hashed."
   },
-  "total_file_count": 53,
-  "hashed_file_count": 52
+  "total_file_count": 60,
+  "hashed_file_count": 59
 }

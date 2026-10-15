@@ -1,6 +1,8 @@
 # Export validation
 
 This source-only Windows developer preview was prepared on 2026-10-14.
+Documentation and GitHub review continued on 2026-10-15. The build and lifecycle
+results below belong to preparation; they were not rerun for the README visuals.
 
 ## Checks performed on this export
 
@@ -31,8 +33,8 @@ development copy and personal launcher installations were not modified.
 
 ## Sanitation and source provenance
 
-The final source manifest lists 51 files with SHA-256 snapshots. The export
-contains 52 files in total. SOURCE_MANIFEST.json explicitly excludes itself:
+SOURCE_MANIFEST.json records the current publication file list, file counts
+and SHA-256 snapshots. It explicitly excludes itself:
 embedding its own hash would change the content being hashed. Hashes cover
 ordinary file contents; alternate streams are checked separately.
 The original application/dashboard/Settings code, styles, configuration schema,
@@ -76,9 +78,44 @@ the earlier export validation.
 
 All application source, styles, scripts, lockfiles, vendored files, licenses,
 example configuration and dependency inventory retained their pre-pass hashes.
-Only documentation and the manifest changed, plus the seven removed metadata
-streams. No Git repository, dependency directory or generated build output was
-created.
+Only documentation and the manifest changed in that sanitation pass, plus the
+seven removed metadata streams. That pass created no Git repository, dependency
+directory or generated build output.
+
+## GitHub and documentation review (2026-10-15)
+
+The reviewed 53-file initial source snapshot was committed as `abbdaf9` on `main`
+and uploaded to a newly created private GitHub repository in a separate,
+explicitly authorized step. Author and committer used `iAmBoosted` and the
+confirmed GitHub no-reply address. The uploaded tree matched the reviewed source.
+Those steps supersede the preparation-only statements about Git initialization.
+
+The README visual pass adds original project artwork and actual read-only browser
+UI captures, with illustrative model configurations and unavailable telemetry.
+The compiled preview's launcher source matched the public frontend byte-for-byte.
+No inference server, real model, optional service or GPU helper was started.
+No tools, packages, SDKs or assets were downloaded or installed. See
+[visual provenance](media/README.md) for capture details and limits.
+
+The repository's current source/media file set and hashes are recorded by the
+manifest. Capture profiles, fixtures, intermediate frames and rendered review
+pages stay outside that publication set. The earlier native build/test results
+do not establish human acceptance of these README visuals.
+
+The documentation review checked 46 local file/heading/image references with no
+broken targets. GitHub's Markdown renderer accepted the draft, including images
+and expandable sections. Its rendered HTML was inspected in a local styled
+preview at 1280-pixel desktop and 430-pixel mobile widths; all five embedded
+images loaded with no horizontal page overflow. This is not a screenshot of the
+authenticated GitHub website or a new native app test.
+
+Six of the eight external documentation URLs returned HTTP 200. The two npm
+package web pages returned HTTP 403 to the automated checker; browser access to
+those pages remains a manual check. No package or SDK contents were downloaded.
+PNG metadata and GIF comments were checked, and publication text scans found no
+known private-path, previous-owner or credential-like markers. These checks do
+not replace the owner's visual review or certify that every possible secret or
+defect has been excluded.
 
 ## Remaining release limits
 
@@ -97,4 +134,6 @@ created.
 - Any downloadable binary needs an artifact-specific third-party review, including
   applicable notices, covered-source availability, vendor SDK/EULA terms and assets.
 
-No Git repository was initialized and no package, binary or source was published.
+The original 2026-10-14 validation did not initialize Git or publish anything.
+Subsequent private source upload is recorded above; no downloadable binary or
+installer was created by either preparation or the documentation review.
